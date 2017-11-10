@@ -12,7 +12,7 @@ function distanceFromHqInFeet(blocks) {
   return distanceFromHqInBlocks(blocks)*264
 }
 
-function calculateVertical(a,b) {
+function distanceTravelledInFeet(a,b) {
   if (a >= b) {
     return (a - b)*264
   }
