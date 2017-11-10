@@ -1,6 +1,11 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks() {
-  
+function distanceFromHqInBlocks(a) {
+  if (a >= 42) {
+    return (a - 42)
+  }
+  else if (42 > a) {
+    return (42 - a)
+    }
 }
 
 function calculateVertical(a,b) {
