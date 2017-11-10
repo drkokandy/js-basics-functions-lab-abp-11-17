@@ -23,7 +23,7 @@ function distanceTravelledInFeet(a,b) {
 
 function calculatesFarePrice(start, destination) {
   let scuberTrip = distanceTravelledInFeet(start, destination);
-  if scuberTrip > 2500: {
+  if scuberTrip > 2500 {
     return 'cannot travel that far'
   }
 }
