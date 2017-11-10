@@ -31,5 +31,7 @@ function calculatesFarePrice(start,destination) {
   } else
   if (tripDistance > 2000) {
     return 25
+  } else {
+    return (tripDistance - 400)*2
   }
 }
