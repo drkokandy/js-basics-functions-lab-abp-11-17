@@ -21,3 +21,7 @@ function distanceTravelledInFeet(a,b) {
     }
 }
 
+function calculatesFarePrice(start,destination) {
+  let tripDistance = distanceTravelledInFeet(start,destination);
+  
+}
