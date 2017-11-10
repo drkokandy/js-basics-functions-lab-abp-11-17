@@ -21,6 +21,3 @@ function distanceTravelledInFeet(a,b) {
     }
 }
 
-
-
-function distanceValidator()
